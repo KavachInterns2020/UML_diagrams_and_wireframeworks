@@ -1,0 +1,602 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				},
+				{
+					"_type": "FCFlowchart",
+					"_id": "AAAAAAFyTHoTRpOPu0c=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Flowchart1",
+					"ownedElements": [
+						{
+							"_type": "FCFlowchartDiagram",
+							"_id": "AAAAAAFyTHoTSJOQ5/Y=",
+							"_parent": {
+								"$ref": "AAAAAAFyTHoTRpOPu0c="
+							},
+							"name": "FlowchartDiagram1",
+							"ownedViews": [
+								{
+									"_type": "FCTerminatorView",
+									"_id": "AAAAAAFyTHpE6JOWXlk=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHoTSJOQ5/Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFyTHpE55OU22M="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFyTHpE6JOXjes=",
+											"_parent": {
+												"$ref": "AAAAAAFyTHpE6JOWXlk="
+											},
+											"font": "Arial;13;0",
+											"left": 146,
+											"top": 74,
+											"width": 68.63720703125,
+											"height": 39,
+											"text": " Lamp does not work",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 136,
+									"top": 64,
+									"width": 88.63720703125,
+									"height": 59,
+									"nameLabel": {
+										"$ref": "AAAAAAFyTHpE6JOXjes="
+									}
+								},
+								{
+									"_type": "FCDecisionView",
+									"_id": "AAAAAAFyTHq9+5OfUXo=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHoTSJOQ5/Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFyTHq9+pOdh6w="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFyTHq9+5OgPcI=",
+											"_parent": {
+												"$ref": "AAAAAAFyTHq9+5OfUXo="
+											},
+											"font": "Arial;13;0",
+											"left": 156.542236328125,
+											"top": 211.5,
+											"width": 57.08447265625,
+											"height": 39,
+											"text": " lamp plugged in?",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 128,
+									"top": 192,
+									"width": 114.1689453125,
+									"height": 78,
+									"nameLabel": {
+										"$ref": "AAAAAAFyTHq9+5OgPcI="
+									}
+								},
+								{
+									"_type": "FCDecisionView",
+									"_id": "AAAAAAFyTHtBuJOpYIo=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHoTSJOQ5/Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFyTHtBuJOn6vY="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFyTHtBuJOqMCE=",
+											"_parent": {
+												"$ref": "AAAAAAFyTHtBuJOpYIo="
+											},
+											"font": "Arial;13;0",
+											"left": 148.542236328125,
+											"top": 371.5,
+											"width": 57.08447265625,
+											"height": 39,
+											"text": " bulb burned out?",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 120,
+									"top": 352,
+									"width": 114.1689453125,
+									"height": 78,
+									"nameLabel": {
+										"$ref": "AAAAAAFyTHtBuJOqMCE="
+									}
+								},
+								{
+									"_type": "FCTerminatorView",
+									"_id": "AAAAAAFyTHukb5Oy6Ic=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHoTSJOQ5/Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFyTHukbpOwz80="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFyTHukb5Ozqk4=",
+											"_parent": {
+												"$ref": "AAAAAAFyTHukb5Oy6Ic="
+											},
+											"font": "Arial;13;0",
+											"left": 138,
+											"top": 514,
+											"width": 68.63720703125,
+											"height": 26,
+											"text": " Repair lamp",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 128,
+									"top": 504,
+									"width": 88.63720703125,
+									"height": 46,
+									"nameLabel": {
+										"$ref": "AAAAAAFyTHukb5Ozqk4="
+									}
+								},
+								{
+									"_type": "FCTerminatorView",
+									"_id": "AAAAAAFyTHw9eJPJ3Q0=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHoTSJOQ5/Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFyTHw9d5PH6fo="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFyTHw9eJPKCTY=",
+											"_parent": {
+												"$ref": "AAAAAAFyTHw9eJPJ3Q0="
+											},
+											"font": "Arial;13;0",
+											"left": 410,
+											"top": 202,
+											"width": 68.63720703125,
+											"height": 26,
+											"text": " plug in lamp",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 400,
+									"top": 192,
+									"width": 88.63720703125,
+									"height": 46,
+									"nameLabel": {
+										"$ref": "AAAAAAFyTHw9eJPKCTY="
+									}
+								},
+								{
+									"_type": "FCTerminatorView",
+									"_id": "AAAAAAFyTHx7s5PSEWU=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHoTSJOQ5/Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFyTHx7s5PQ9B0="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFyTHx7s5PTjGc=",
+											"_parent": {
+												"$ref": "AAAAAAFyTHx7s5PSEWU="
+											},
+											"font": "Arial;13;0",
+											"left": 410,
+											"top": 378,
+											"width": 68.63720703125,
+											"height": 26,
+											"text": " replace bulb",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 400,
+									"top": 368,
+									"width": 88.63720703125,
+									"height": 46,
+									"nameLabel": {
+										"$ref": "AAAAAAFyTHx7s5PTjGc="
+									}
+								},
+								{
+									"_type": "FCFlowView",
+									"_id": "AAAAAAFyTHzCspPcX4A=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHoTSJOQ5/Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFyTHzCsZPaMFY="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFyTHzCspPdv1Y=",
+											"_parent": {
+												"$ref": "AAAAAAFyTHzCspPcX4A="
+											},
+											"model": {
+												"$ref": "AAAAAAFyTHzCsZPaMFY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 194,
+											"top": 150,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAFyTHzCspPcX4A="
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFyTHq9+5OfUXo="
+									},
+									"tail": {
+										"$ref": "AAAAAAFyTHpE6JOWXlk="
+									},
+									"lineStyle": 2,
+									"points": "180:122;180:192",
+									"nameLabel": {
+										"$ref": "AAAAAAFyTHzCspPdv1Y="
+									}
+								},
+								{
+									"_type": "FCFlowView",
+									"_id": "AAAAAAFyTHz7r5PlD0M=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHoTSJOQ5/Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFyTHz7r5PjIpA="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFyTHz7sJPmjWY=",
+											"_parent": {
+												"$ref": "AAAAAAFyTHz7r5PlD0M="
+											},
+											"model": {
+												"$ref": "AAAAAAFyTHz7r5PjIpA="
+											},
+											"font": "Arial;13;0",
+											"left": 186,
+											"top": 303,
+											"width": 20.22998046875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAFyTHz7r5PlD0M="
+											},
+											"edgePosition": 1,
+											"text": "yes"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFyTHtBuJOpYIo="
+									},
+									"tail": {
+										"$ref": "AAAAAAFyTHq9+5OfUXo="
+									},
+									"lineStyle": 2,
+									"points": "182:269;182:352",
+									"nameLabel": {
+										"$ref": "AAAAAAFyTHz7sJPmjWY="
+									}
+								},
+								{
+									"_type": "FCFlowView",
+									"_id": "AAAAAAFyTH0ST5Pv0Fo=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHoTSJOQ5/Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFyTH0STpPtXxc="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFyTH0ST5PwLeo=",
+											"_parent": {
+												"$ref": "AAAAAAFyTH0ST5Pv0Fo="
+											},
+											"model": {
+												"$ref": "AAAAAAFyTH0STpPtXxc="
+											},
+											"font": "Arial;13;0",
+											"left": 182,
+											"top": 459,
+											"width": 14.4599609375,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAFyTH0ST5Pv0Fo="
+											},
+											"edgePosition": 1,
+											"text": "no"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFyTHukb5Oy6Ic="
+									},
+									"tail": {
+										"$ref": "AAAAAAFyTHtBuJOpYIo="
+									},
+									"lineStyle": 2,
+									"points": "175:429;175:504",
+									"nameLabel": {
+										"$ref": "AAAAAAFyTH0ST5PwLeo="
+									}
+								},
+								{
+									"_type": "FCFlowView",
+									"_id": "AAAAAAFyTH0qp5P53jY=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHoTSJOQ5/Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFyTH0qp5P3a+E="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFyTH0qp5P6odE=",
+											"_parent": {
+												"$ref": "AAAAAAFyTH0qp5P53jY="
+											},
+											"model": {
+												"$ref": "AAAAAAFyTH0qp5P3a+E="
+											},
+											"font": "Arial;13;0",
+											"left": 306,
+											"top": 369,
+											"width": 20.22998046875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAFyTH0qp5P53jY="
+											},
+											"edgePosition": 1,
+											"text": "yes"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFyTHx7s5PSEWU="
+									},
+									"tail": {
+										"$ref": "AAAAAAFyTHtBuJOpYIo="
+									},
+									"lineStyle": 2,
+									"points": "233:390;400:390",
+									"nameLabel": {
+										"$ref": "AAAAAAFyTH0qp5P6odE="
+									}
+								},
+								{
+									"_type": "FCFlowView",
+									"_id": "AAAAAAFyTH1CWZQDyL0=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHoTSJOQ5/Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFyTH1CWJQBeAY="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFyTH1CWZQEK/g=",
+											"_parent": {
+												"$ref": "AAAAAAFyTH1CWZQDyL0="
+											},
+											"model": {
+												"$ref": "AAAAAAFyTH1CWJQBeAY="
+											},
+											"font": "Arial;13;0",
+											"left": 313,
+											"top": 205,
+											"width": 14.4599609375,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAFyTH1CWZQDyL0="
+											},
+											"edgePosition": 1,
+											"text": "no"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFyTHw9eJPJ3Q0="
+									},
+									"tail": {
+										"$ref": "AAAAAAFyTHq9+5OfUXo="
+									},
+									"lineStyle": 2,
+									"points": "241:226;400:226",
+									"nameLabel": {
+										"$ref": "AAAAAAFyTH1CWZQEK/g="
+									}
+								}
+							]
+						},
+						{
+							"_type": "FCTerminator",
+							"_id": "AAAAAAFyTHpE55OU22M=",
+							"_parent": {
+								"$ref": "AAAAAAFyTHoTRpOPu0c="
+							},
+							"name": " Lamp does not work",
+							"ownedElements": [
+								{
+									"_type": "FCFlow",
+									"_id": "AAAAAAFyTHzCsZPaMFY=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHpE55OU22M="
+									},
+									"source": {
+										"$ref": "AAAAAAFyTHpE55OU22M="
+									},
+									"target": {
+										"$ref": "AAAAAAFyTHq9+pOdh6w="
+									}
+								}
+							]
+						},
+						{
+							"_type": "FCDecision",
+							"_id": "AAAAAAFyTHq9+pOdh6w=",
+							"_parent": {
+								"$ref": "AAAAAAFyTHoTRpOPu0c="
+							},
+							"name": " lamp plugged in?",
+							"ownedElements": [
+								{
+									"_type": "FCFlow",
+									"_id": "AAAAAAFyTHz7r5PjIpA=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHq9+pOdh6w="
+									},
+									"name": "yes",
+									"source": {
+										"$ref": "AAAAAAFyTHq9+pOdh6w="
+									},
+									"target": {
+										"$ref": "AAAAAAFyTHtBuJOn6vY="
+									}
+								},
+								{
+									"_type": "FCFlow",
+									"_id": "AAAAAAFyTH1CWJQBeAY=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHq9+pOdh6w="
+									},
+									"name": "no",
+									"source": {
+										"$ref": "AAAAAAFyTHq9+pOdh6w="
+									},
+									"target": {
+										"$ref": "AAAAAAFyTHw9d5PH6fo="
+									}
+								}
+							]
+						},
+						{
+							"_type": "FCDecision",
+							"_id": "AAAAAAFyTHtBuJOn6vY=",
+							"_parent": {
+								"$ref": "AAAAAAFyTHoTRpOPu0c="
+							},
+							"name": " bulb burned out?",
+							"ownedElements": [
+								{
+									"_type": "FCFlow",
+									"_id": "AAAAAAFyTH0STpPtXxc=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHtBuJOn6vY="
+									},
+									"name": "no",
+									"source": {
+										"$ref": "AAAAAAFyTHtBuJOn6vY="
+									},
+									"target": {
+										"$ref": "AAAAAAFyTHukbpOwz80="
+									}
+								},
+								{
+									"_type": "FCFlow",
+									"_id": "AAAAAAFyTH0qp5P3a+E=",
+									"_parent": {
+										"$ref": "AAAAAAFyTHtBuJOn6vY="
+									},
+									"name": "yes",
+									"source": {
+										"$ref": "AAAAAAFyTHtBuJOn6vY="
+									},
+									"target": {
+										"$ref": "AAAAAAFyTHx7s5PQ9B0="
+									}
+								}
+							]
+						},
+						{
+							"_type": "FCTerminator",
+							"_id": "AAAAAAFyTHukbpOwz80=",
+							"_parent": {
+								"$ref": "AAAAAAFyTHoTRpOPu0c="
+							},
+							"name": " Repair lamp"
+						},
+						{
+							"_type": "FCTerminator",
+							"_id": "AAAAAAFyTHw9d5PH6fo=",
+							"_parent": {
+								"$ref": "AAAAAAFyTHoTRpOPu0c="
+							},
+							"name": " plug in lamp"
+						},
+						{
+							"_type": "FCTerminator",
+							"_id": "AAAAAAFyTHx7s5PQ9B0=",
+							"_parent": {
+								"$ref": "AAAAAAFyTHoTRpOPu0c="
+							},
+							"name": " replace bulb"
+						}
+					]
+				}
+			]
+		}
+	]
+}
